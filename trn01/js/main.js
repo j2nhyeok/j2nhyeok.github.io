@@ -11,5 +11,8 @@ $(function(){
         dots: true,  //dots만들기
         
     });
+    $('.mopen').on('click', function(){
+        $('.gnb').toggleClass('on')
+    })
 })
 
