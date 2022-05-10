@@ -28,7 +28,7 @@ $(function(){
     });
     
     $('#myMovie').YTPlayer({                
-    videoURL:'https://youtu.be/6Ux8jvpD0BA',
+    videoURL:'hhttps://youtu.be/5-Y6EJBXMKU',
     containment:'.utube',
     autoPlay:true,
      mute:true, 
