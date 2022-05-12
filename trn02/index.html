@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./css/mbtn.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -39,6 +40,11 @@
 
                             </ul>
                         </nav>
+                        <button class="hamburger mbtn  hamburger--collapse " type="button">
+                            <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                            </span>
+                          </button>
                         <form action="javascript:formSubmit()" id ="searchForm">
                             <input type="text">
                             <button>
@@ -128,7 +134,7 @@
             <section class="movie">
                 <div class="container">
                     <figure>
-                        <video src="./img/movie.mp4" muted autoplay loop></video>
+                        <video src="./img/movie.mp4" muted autoplay loop playsinline></video>
                     </figure>
                     <div class="dec">
                         <h2>JEWELLERY COLLECTION</h2>
@@ -215,8 +221,22 @@
                                <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
                            </dl>
                        </li> 
-                       <li>02</li> 
-                       <li>03</li> 
+                       <li> <dl>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                    </dl></li> 
+                       <li> <dl>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                        <dd><strong>Lorem ipsum dolor sit amet consectetur.</strong><span>2022.12.24</span></dd>
+                    </dl></li> 
                     </ul>
                 </div>
                 <figure>
@@ -236,7 +256,7 @@
                     <li><a href="">그라프 하우스 소개</a></li>
                 </ul>
                 <div class="sns">
-                   <a href=""> <i class ="xi-kakaotalk"></i></a>   
+                   <a href="#!"> <i class ="xi-kakaotalk"></i></a>   
                    <a href=""> <i class ="xi-facebook"></i></a>   
                    <a href=""> <i class ="xi-naver"></i></a>   
              </div>
