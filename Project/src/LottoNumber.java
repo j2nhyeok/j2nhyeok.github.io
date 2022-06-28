@@ -2,7 +2,7 @@ import java.util.List;
 
 public class LottoNumber {
 
-	private int numbers[] = new int[6];
+	public int numbers[] = new int[6];
 	private String category;
 	
 
